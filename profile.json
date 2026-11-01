@@ -1,19 +1,22 @@
 {
-    "name": "Your Name",
-    "tagline": "Your one-line introduction",
-    "bio": "Write 2 or 3 sentences about yourself.",
-    "skills": [
-        "Git",
-        "HTML"
-    ],
-    "projects": [
-        {
-            "title": "My first project",
-            "desc": "What it does.",
-            "link": "https://github.com/yourname"
-        }
-    ],
-    "links": {
-        "github": "https://github.com/yourname"
+  "name": "Sreerag V S",
+  "tagline": "Engineering Student, Mobile App & Full Stack Developer",
+  "bio": "Engineering student at TKMCE building scalable web and mobile applications using Spring Boot, Flutter, and microservices architecture.",
+  "skills": ["Git", "Java", "Python", "HTML", "CSS", "JavaScript", "Spring Boot", "Docker", "Temporal", "Flutter", "MERN"],
+  "projects": [
+    {
+      "title": "Aerosaga",
+      "desc": "Fault-tolerant drone simulator & delivery tracker engineered with Temporal for zero-downtime crash resilience.",
+      "link": "https://github.com/Chetana0453/AEROSAGA"
+    },
+    {
+      "title": "Arogya",
+      "desc": "Smart hospital ecosystem streamlining doctor-patient workflows with automated medication alerts.",
+      "link": "https://github.com/sreeragvs123/Arogya"
     }
+  ],
+  "links": {
+    "github": "https://github.com/sreeragvs123",
+    "linkedin": "https://linkedin.com/in/sreerag-vs-1812dec"
+  }
 }
