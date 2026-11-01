@@ -4,31 +4,41 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My Portfolio</title>
+  <meta name="description" content="Portfolio of Sreerag V S - Engineering Student, Mobile App & Full Stack Developer">
+  <meta name="author" content="Sreerag V S">
+  <meta name="theme-color" content="#10111a">
+  <title>Sreerag V S | Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <header class="hero">
-    <h1 id="name"></h1>
-    <p id="tagline"></p>
-    <nav id="links"></nav>
+    <h1 id="name">Sreerag V S</h1>
+    <p id="tagline">Engineering Student, Mobile App & Full Stack Developer</p>
+    <nav id="links" aria-label="Social links"></nav>
   </header>
+
   <main>
-    <section>
+    <section id="about-section">
       <h2>About</h2>
       <p id="bio"></p>
     </section>
-    <section>
+
+    <section id="skills-section">
       <h2>Skills</h2>
-      <ul id="skills" class="chips"></ul>
+      <ul id="skills" class="chips" aria-label="Technical skills"></ul>
     </section>
-    <section>
+
+    <section id="projects-section">
       <h2>Projects</h2>
       <div id="projects" class="grid"></div>
     </section>
   </main>
-  <footer id="footer"></footer>
+
+  <footer id="footer">
+    <p>&copy; 2026 Sreerag V S. Built for FOSS TKMCE Portfolio Week.</p>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 
